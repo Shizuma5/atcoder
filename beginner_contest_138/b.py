@@ -1,5 +1,4 @@
 # python 3.4.3はgcdはfractionsの中
-# でかい数で割るときは工夫すべし
 
 import numpy as np
 from fractions import gcd
@@ -26,3 +25,15 @@ for m in range(n):
 x = child / mother
 
 print(x)
+
+
+"""
+以下例
+そのまま計算しても良かったっぽい
+"""
+'''
+N = int(input())
+A = map(int, input().split())
+print('{:.16g}'.format(1 / sum(1 / x for x in A)))
+'''
+
