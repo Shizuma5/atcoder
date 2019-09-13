@@ -1,6 +1,6 @@
 import numpy as np
 
-K, X = map(int, input().split(' '))
+K, X = map(int, input().split())
 
 max_num = X + K
 
