@@ -10,3 +10,6 @@ atcoderでやった問題をおいておくためのリポジトリ
 - [abc_137](/beginner_contests/con_137/knowledge.md)
     - アナグラム系問題
     - 優先度付きキュー
+
+- [abc_141](/begginer_contests/con_141/knowledge.md)
+    - heapq
