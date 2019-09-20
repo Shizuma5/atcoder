@@ -2,6 +2,9 @@
 atcoderでやった問題をおいておくためのリポジトリ
 
 # リンク
+- [abc_136](/begginer_contests/con_136/knowledge.md)
+    - 愚直に解かずに逆算してみることも大事
+
 - [abc_138](/beginner_contests/con_138/knowledge.md)
     - 公約数/公倍数
     - dfs（深さ優先探索）
