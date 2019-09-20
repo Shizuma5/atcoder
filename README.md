@@ -2,7 +2,7 @@
 atcoderでやった問題をおいておくためのリポジトリ
 
 # リンク
-- [abc_136](/begginer_contests/con_136/knowledge.md)
+- [abc_136](/beginner_contests/con_136/knowledge.md)
     - 愚直に解かずに逆算してみることも大事
 
 - [abc_138](/beginner_contests/con_138/knowledge.md)
