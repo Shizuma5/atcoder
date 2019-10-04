@@ -2,6 +2,10 @@
 atcoderでやった問題をおいておくためのリポジトリ
 
 # リンク
+- [abc_135](/beginner_contests/con_135/knowledge.md)
+    - 動的計画法
+    - 13の倍数の判定法
+
 - [abc_136](/beginner_contests/con_136/knowledge.md)
     - 愚直に解かずに逆算してみることも大事
 
