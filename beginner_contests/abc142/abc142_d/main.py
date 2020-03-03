@@ -1,34 +1,25 @@
-import numpy as np
-import copy as cp
+from fractions import gcd
+from math import sqrt
 
-# 参考: https://qiita.com/snow67675476/items/e87ddb9285e27ea555f8
-def factorization(n):
-    arr = []
-    temp = n
-    for i in range(2, int(-(-n**0.5//1))+1):
-        if temp%i==0:
-            cnt=0
-            while temp%i==0:
-                cnt+=1
-                temp //= i
-            arr.append(i)
+# https://qiita.com/c-yan/items/36343c22ef8691421923
+# sqrt(gcd(A, B))よりも大きい素数が一つだけあるため普通にループを回す
 
-    if temp!=1:
-        arr.append(temp)
-
-    if arr==[]:
-        arr.append(n)
-
-    return arr
+def prime_factorize(n):
+    result = []
+    for i in range(2, int(sqrt(n)) + 1):
+        if n % i != 0:
+            continue
+        t = 0
+        while n % i == 0:
+            n //= i
+            t += 1
+        result.append((i, t))
+        if n == 1:
+            break
+    if n != 1:
+        result.append((n, 1))
+    return result
 
 
 A, B = map(int, input().split())
-
-ans = [1]
-
-for a in factorization(A):
-    for b in factorization(B):
-        if a == b:
-            ans.append(a)
-
-print(len(ans))
+print(len(prime_factorize(gcd(A, B))) + 1)
