@@ -1,0 +1,21 @@
+
+[AtCoder]
+  ContestID = "abc142"
+  ContestURL = "https://atcoder.jp/contests/abc142"
+  TaskID = "abc142_d"
+  TaskName = "D - Disjoint Set of Common Divisors"
+  TaskURL = "https://atcoder.jp/contests/abc142/tasks/abc142_d"
+
+[Environment]
+  BuildCmd = ""
+  BuildCmdOnDocker = ""
+  CleanCmd = ""
+  Cmd = "python3 -B main.py"
+  CmdOnDocker = "python -B main.py"
+  DockerImage = "docker.io/sachaos/atcoder-python3:latest"
+  Key = "python3"
+  Language = "Python3 (3.4.3)"
+  LanguageCode = "3023"
+  Note = ""
+  SrcName = "main.py"
+  Template = "internal/python3/main.py"
