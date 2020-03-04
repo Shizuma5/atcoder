@@ -1,14 +1,23 @@
-import numpy as np
+# https://takeg.hatenadiary.jp/entry/2019/11/22/212816
 
-N = int(input())
-L = np.array(list(map(int, input().split())))
+import bisect
 
-ans = 0
+def solve():
+    N = int(input())
+    Ls = list(map(int, input().split()))
+    Ls.sort()
 
-L = np.sort(L)
+    # O(N^2 * logN)の全探索で解く
+    ans = 0
+    for a_i in range(N):
+        for b_i in range(a_i+1, N):
+            c_i = bisect.bisect_left(Ls, Ls[a_i]+Ls[b_i])
+            if c_i > b_i:
+                ans += c_i - b_i - 1
+            else:
+                pass
 
-for a in range(N-2):
-    for b in range(a+1, N-1):
-        ans += sum((L < (L[a]+L[b])) * (L > L[b]))
+    print(ans)
 
-print(ans)
+if __name__ == "__main__":
+    solve()
