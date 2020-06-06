@@ -1,3 +1,6 @@
-# Code for A - 9x9
-# Use input() to fetch data from STDIN
-print("Hello world")
+A, B = map(int, input().split())
+
+if A > 9 or B > 9:
+    print(-1)
+else:
+    print(A * B)
