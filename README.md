@@ -20,3 +20,7 @@ atcoderでやった問題をおいておくためのリポジトリ
 
 - [abc_141](/begginer_contests/con_141/knowledge.md)
     - heapq
+
+- [abc_144](/begginer_contests/abc144/knowledge.md)
+    - 約数の数え上げ（公約数ではない）
+    - 幾何学の考え方
