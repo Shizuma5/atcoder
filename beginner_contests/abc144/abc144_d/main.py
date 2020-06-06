@@ -1,3 +1,6 @@
-# Code for D - Water Bottle
-# Use input() to fetch data from STDIN
-print("Hello world")
+import math
+
+a, b, x = map(int, input().split())
+
+# かしこい
+# https://drken1215.hatenablog.com/entry/2020/04/26/193500
