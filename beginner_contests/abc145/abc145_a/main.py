@@ -1,3 +1,5 @@
-# Code for A - Circle
-# Use input() to fetch data from STDIN
-print("Hello world")
+r = int(input())
+
+ans = int(r ** 2)
+
+print(ans)
