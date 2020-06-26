@@ -18,9 +18,15 @@ atcoderでやった問題をおいておくためのリポジトリ
     - アナグラム系問題
     - 優先度付きキュー
 
-- [abc_141](/begginer_contests/con_141/knowledge.md)
+- [abc_141](/beginner_contests/con_141/knowledge.md)
     - heapq
 
-- [abc_144](/begginer_contests/abc144/knowledge.md)
+- [abc_144](/beginner_contests/abc144/knowledge.md)
     - 約数の数え上げ（公約数ではない）
     - 幾何学の考え方
+
+- [abc_145](/beginner_contests/abc145/knowledge.md)
+    - 二項係数(nCr)
+    - 最短経路数え上げ問題
+    - 10^9 + 7で割るやつは大抵これ
+
