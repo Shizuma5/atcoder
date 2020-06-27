@@ -1,0 +1,21 @@
+
+[AtCoder]
+  ContestID = "abc172"
+  ContestURL = "https://atcoder.jp/contests/abc172"
+  TaskID = "abc172_e"
+  TaskName = "E - NEQ"
+  TaskURL = "https://atcoder.jp/contests/abc172/tasks/abc172_e"
+
+[Environment]
+  BuildCmd = ""
+  BuildCmdOnDocker = ""
+  CleanCmd = ""
+  Cmd = "python3 -B main.py"
+  CmdOnDocker = "python -B main.py"
+  DockerImage = "docker.io/sachaos/atcoder-python3:latest"
+  Key = "python3"
+  Language = "Python3 (3.4.3)"
+  LanguageCode = "3023"
+  Note = ""
+  SrcName = "main.py"
+  Template = "internal/python3/main.py"
