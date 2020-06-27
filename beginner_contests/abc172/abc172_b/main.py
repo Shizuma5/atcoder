@@ -1,3 +1,10 @@
-# Code for B - Minor Change
-# Use input() to fetch data from STDIN
-print("Hello world")
+S = input()
+T = input()
+
+ans = 0
+
+for s, t in zip(S, T):
+    if not s == t:
+        ans += 1
+
+print(ans)
